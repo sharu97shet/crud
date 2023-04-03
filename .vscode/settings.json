@@ -1,0 +1,12 @@
+{
+  "gitHistory.logLevel": "None",
+  "gitHistory.showEditorTitleMenuBarIcons": false,
+  "gitHistory.showFileHistorySplit": false,
+  "githubIssues.assignWhenWorking": false,
+  "githubIssues.issueCompletions.enabled": false,
+  "githubPullRequests.defaultDeletionMethod.selectRemote": false,
+  "githubPullRequests.defaultDeletionMethod.selectLocalBranch": false,
+  "python.testing.unittestArgs": ["-v", "-s", "./calc", "-p", "*test*.py"],
+  "python.testing.pytestEnabled": false,
+  "python.testing.unittestEnabled": true
+}

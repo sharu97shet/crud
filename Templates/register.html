@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Balunand</title>
+
+</head>
+
+<body>
+    <p>Register Form</p>
+
+    <form method="post"  autocomplete="off" action="register">
+
+        {% csrf_token %}
+        <input type="text" id="fname" name="username" placeholder="Enter your username"  autocomplete="off">
+
+        <input type="text" id="fname" name="firstname" placeholder="Enter your first name "  autocomplete="off">
+
+         <input type="text" id="lname" name="lastname" placeholder="Enter your lastname"  autocomplete="off">
+
+          <input type="email" id="email" name="email" placeholder="Enter your email "  autocomplete="off">
+         <input type="password" id="pass" name="password" placeholder="Enter your password" autocomplete="off">
+
+        <input type="password" id="confirmpassword" name="confirmpassword" placeholder="Enter your confirmpassword" autocomplete="off"> 
+
+           <input type="submit"  value="submit"/>
+
+    </form>
+
+</body>
+
+</html>
